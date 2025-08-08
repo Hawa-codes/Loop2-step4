@@ -20,6 +20,50 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    position: relative;
+    left: -45px;
+}
+
+.not-active {
+    background-color: #3d3e52;
+    width: 68px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.event-image, .finance-image, .gift-image, .pets-image {
+    color: #aaaabf;
+    width: 20px;
+    height: 20px;
+}
+
+.active {
+    background-color: #252525;
+    width: 80px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+}
+
+.cafe-image {
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+}
+
+.not-active + .not-active {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content:hover {
+    color: rgb(40, 36, 36);
 }
 
 .container {
