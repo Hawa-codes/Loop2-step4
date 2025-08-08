@@ -36,10 +36,9 @@ body {
 }
 
 .top-panel {
+    background-image: url(./img/food.jpg);
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 40%;
 }
@@ -52,7 +51,6 @@ body {
 }
 
 .top-panel h2 {
-    background-image: url(./img/food.jpg);
     position: absolute;
     font-size: 24px;
     font-weight: bold;
@@ -61,14 +59,7 @@ body {
     top: 20px;
 }
 
-.locations {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    left: 20px;
-    bottom: 20px;
-}
+
 
 .location-icon {
     width: 24px;
