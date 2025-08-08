@@ -33,6 +33,7 @@ body {
     justify-content: center;
     margin-right: 1px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .event-image, .finance-image, .gift-image, .pets-image {
@@ -62,8 +63,8 @@ body {
     margin-right: 0;
 }
 
-.content:hover {
-    color: rgb(40, 36, 36);
+.not-active:hover {
+    background-color: #2f303f;
 }
 
 .container {
